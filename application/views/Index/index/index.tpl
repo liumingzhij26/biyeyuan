@@ -106,7 +106,8 @@
             <ul class="thumbnails">
                 <li class="span4">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="img/cms_v1.png" width="360" height="180" alt="CMS管理系统-都市网达"/>
+                        <img class="img-rounded" src="<{assets url='static/img/cms_v1.png'}>"
+                             alt="CMS管理系统-都市网达"/>
 
                         <h3 class="text-left">CMS管理系统</h3>
 
@@ -121,7 +122,7 @@
                 <li class="span4">
                     <section class="thumbnail bootstro" data-bootstro-title="" data-bootstro-placement="left"
                              data-bootstro-step="7">
-                        <img class="img-rounded" src="img/cms_v2.png" alt="ZF框架CMS">
+                        <img class="img-rounded" src="<{assets url='static/img/cms_v2.png'}>" alt="ZF框架CMS">
 
                         <h3 class="text-left">ZF框架CMS</h3>
 
@@ -133,7 +134,7 @@
                 </li>
                 <li class="span4">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="img/shop_v1.png" alt="电子商务网站(Smarty)">
+                        <img class="img-rounded" src="<{assets url='static/img/shop_v1.png'}>" alt="电子商务网站(Smarty)">
 
                         <h3 class="text-left">电子商务网站(Smarty)</h3>
 
@@ -147,7 +148,7 @@
                 <li class="span4">
                     <section class="thumbnail bootstro" data-bootstro-title="" data-bootstro-placement="right"
                              data-bootstro-step="8">
-                        <img class="img-rounded" src="img/map_v1.png" alt="三维地图开发">
+                        <img class="img-rounded" src="<{assets url='static/img/map_v1.png'}>" alt="三维地图开发">
 
                         <h3 class="text-left">三维地图开发</h3>
 
@@ -160,7 +161,7 @@
                 </li>
                 <li class="span4">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="img/two_v1.png" alt="二次开发">
+                        <img class="img-rounded" src="<{assets url='static/img/two_v1.png'}>" alt="二次开发">
 
                         <h3 class="text-left">二次开发</h3>
 
@@ -173,7 +174,7 @@
                 </li>
                 <li class="span4">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="img/j2ee_v1.png" alt="条码管理系统开发">
+                        <img class="img-rounded" src="<{assets url='static/img/j2ee_v1.png'}>" alt="条码管理系统开发">
 
                         <h3 class="text-left">条码管理系统开发</h3>
 
@@ -217,8 +218,8 @@
         <article class="content">
             <h2>奖励情况</h2>
 
-            <p class="h5"><a href="<{assets url='static/img/v1.jpg'}>" target="_blank" class="btn btn-success v1">湖南省2012年计算机信息安全技术一等奖第一名</a> <a
-                        href="<{assets url='static/img/v2.jpg'}>" target="_blank" class="btn btn-success v1">全国2012年职业技术计算机信息安全技术二等奖</a></p>
+            <p class="h5"><a href="img/v1.jpg" target="_blank" class="btn btn-success v1">湖南省2012年计算机信息安全技术一等奖第一名</a> <a
+                        href="img/v2.jpg" target="_blank" class="btn btn-success v1">全国2012年职业技术计算机信息安全技术二等奖</a></p>
         </article>
 
         <article class="content">
@@ -250,7 +251,7 @@
                 <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备15011925号-1</a></p>
 
             <p><a href="http://webscan.360.cn/index/checkwebsite/url/www.biyeyuan.com" target="_blank">
-                    <img border="0" src="<{assets url='static/img/360.png'}>"/></a>
+                    <img border="0" src="<{assets url='/img/360.png'}>"/></a>
             </p>
         </section>
     </footer>
@@ -261,25 +262,3 @@
 <{block name="js"}>
     <script src="<{assets url='static/js/basic.js'}>"></script>
 <{/block}>
-<p style="display:none">
-    <script type="text/javascript">
-        window._bd_share_config = {
-            "common": {
-                "bdSnsKey": {},
-                "bdText": "",
-                "bdMini": "2",
-                "bdMiniList": false,
-                "bdPic": "",
-                "bdStyle": "0",
-                "bdSize": "16"
-            },
-            "slide": {"type": "slide", "bdImg": "0", "bdPos": "right", "bdTop": "134"},
-            "image": {"viewList": ["qzone", "tsina", "tqq", "renren", "weixin"], "viewText": "分享到：", "viewSize": "16"},
-            "selectShare": {"bdContainerClass": null, "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]}
-        };
-        with (document)0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
-
-        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe47b0d150eb3c55462ea3e06f773954a' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-</p>

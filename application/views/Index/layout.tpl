@@ -20,5 +20,27 @@
 <script src="http://libs.baidu.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script src="<{assets url='static/js/jquery.scrollUp.min.js'}>"></script>
 <{block name="js"}><{/block}>
+<p style="display:none">
+    <script type="text/javascript">
+        window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "0",
+                "bdSize": "16"
+            },
+            "slide": {"type": "slide", "bdImg": "0", "bdPos": "right", "bdTop": "134"},
+            "image": {"viewList": ["qzone", "tsina", "tqq", "renren", "weixin"], "viewText": "分享到：", "viewSize": "16"},
+            "selectShare": {"bdContainerClass": null, "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]}
+        };
+        with (document)0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe47b0d150eb3c55462ea3e06f773954a' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</p>
 </body>
 </html>

@@ -11,6 +11,7 @@
  * Time: 下午6:54
  */
 namespace Config;
+
 class Db
 {
     /**

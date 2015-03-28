@@ -86,7 +86,6 @@ class Func
         return null;
     }
 
-
     /**
      * 当前URL地址
      *
@@ -99,14 +98,14 @@ class Func
 
 
     /**
-     * 返回一个对应的CODE
      *
-     * @param $uid
+     *
+     * @param $id
      * @return string
      */
-    public static function CardCode($uid)
+    public static function CardCode($id)
     {
-        $id = base_convert($uid, 10, 27);
+        $id = base_convert($id, 10, 27);
         $code = str_replace("o", "z", str_replace("i", "y", str_replace("1", "x", str_replace("0", "w", str_pad($id, 6, "0", STR_PAD_LEFT)))));
         return strtoupper($code);
     }
