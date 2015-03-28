@@ -1,0 +1,15 @@
+{
+  "config": {"vendor-dir": "Vendor"},
+  "name": "yaf_base",
+  "description": "http://www.biyeyuan.com/",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://pkg.phpcomposer.com/repo/packagist/"
+    },
+    {"packagist": false}
+  ],
+  "require": {
+    "lmz/medoo": "*"
+  }
+}

@@ -1,0 +1,6 @@
+.idea
+composer.lock
+\.orig$
+.DS_Store
+nbproject*
+^node_modules$
