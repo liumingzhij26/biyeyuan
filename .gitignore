@@ -4,4 +4,4 @@ composer.lock
 .DS_Store
 nbproject*
 ^node_modules$
-*conf.inc.php
+oss/conf.inc.php
