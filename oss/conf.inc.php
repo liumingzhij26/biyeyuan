@@ -1,7 +1,8 @@
 <?php
-define('OSS_ACCESS_ID', 'ouPEG3yPIkwCrJFZ');
-define('OSS_ACCESS_KEY', 'c4zRsWNIQiyTueNnxxudxt4BMjR93t');
-define('OSS_ENDPOINT', 'http://oss-cn-beijing.aliyuncs.com');
+set_time_limit(0);
+define('OSS_ACCESS_ID', '***');
+define('OSS_ACCESS_KEY', '***');
+define('OSS_ENDPOINT', 'oss-cn-beijing.aliyuncs.com');
 define('OSS_TEST_BUCKET', 'static-pub');
 
 //是否记录日志

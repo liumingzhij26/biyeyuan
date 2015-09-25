@@ -52,6 +52,21 @@ if(function_exists('get_loaded_extensions')){
  * @since 2012-05-31
  */
 class ALIOSS{
+
+    static public $instance;
+
+    /**
+     * @return ALIOSS
+     */
+    static public function Instance()
+    {
+        $class = get_called_class();
+        if (empty(self::$instance[$class])) {
+            self::$instance[$class] = new $class();
+        }
+        return self::$instance[$class];
+    }
+
     /**
      * 默认构造函数
      * @param string $access_id (Optional)
