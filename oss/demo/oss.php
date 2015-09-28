@@ -18,6 +18,7 @@ $obj = $oss->list_object($bucket);
 var_dump(OSSUtil::parse_response($obj));
 
 echo "<hr/>";
+exit;
 
 
 //上传object 相关示例
@@ -54,15 +55,15 @@ OSSUtil::print_res($res, $msg);
  *简单上传
  *上传指定的本地文件内容
  */
-$object = "test";
-$file_path = dirname(__FILE__).DIRECTORY_SEPARATOR.'jquery-1.10.1.min.js';
-$options = array();
-$object = $object.DIRECTORY_SEPARATOR.'jquery-1.10.1.min.js';
-$res = $oss->upload_file_by_file($bucket, $object, $file_path, $options);
-$msg = "上传本地文件 :" . $file_path . " 到 /" . $bucket . "/" . $object;
-OSSUtil::print_res($res, $msg);
-echo "<hr/>";
-exit;
+//$object = "test";
+//$file_path = dirname(__FILE__).DIRECTORY_SEPARATOR.'jquery-1.10.1.min.js';
+//$options = array();
+//$object = $object.DIRECTORY_SEPARATOR.'jquery-1.10.1.min.js';
+//$res = $oss->upload_file_by_file($bucket, $object, $file_path, $options);
+//$msg = "上传本地文件 :" . $file_path . " 到 /" . $bucket . "/" . $object;
+//OSSUtil::print_res($res, $msg);
+//echo "<hr/>";
+//exit;
 
 /**
  *列出Bucket内最多1000个文件

@@ -617,7 +617,9 @@ class RequestCore
 		curl_setopt($curl_handle, CURLOPT_REFERER, $this->request_url);
 		curl_setopt($curl_handle, CURLOPT_USERAGENT, $this->useragent);
 		curl_setopt($curl_handle, CURLOPT_READFUNCTION, array($this, 'streaming_read_callback'));
-
+        curl_setopt($curl_handle, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4 );
+        curl_setopt($curl_handle, CURLOPT_DNS_USE_GLOBAL_CACHE, false );
+        curl_setopt($curl_handle, CURLOPT_DNS_CACHE_TIMEOUT, 2 );
 		// Verification of the SSL cert
 		if ($this->ssl_verification)
 		{

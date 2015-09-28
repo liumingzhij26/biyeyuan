@@ -78,6 +78,7 @@ class medoo
 
             switch ($type) {
                 case 'mariadb':
+
                     $type = 'mysql';
 
                 case 'mysql':

@@ -5,7 +5,7 @@
     <meta name="description" content="学习计算机9年了，我热爱计算机网络编程，对计算机网络和硬件有一定的基础,如果有幸能加入贵公司，我愿意以200%的努力来工作与学习。(目前就职国内某知名电商)">
 <{/block}>
 <{block name="css"}>
-    <link href="<{assets url='static/css/style.css'}>" rel="stylesheet"/>
+    <link href="http://static.biyeyuan.com/css/style.css" rel="stylesheet">
 <{/block}>
 <{block name="content"}>
     <header class="title">
@@ -33,7 +33,6 @@
             </p>
 
             <p class="h5">
-                <a href="http://weibo.com/u/1883807842" target="_blank">个人微博</a>
                 <span class="text-error">QQ：610852772</span>
             </p>
 
@@ -43,6 +42,7 @@
                                 data-bootstro-step="6">不再支持IE6/7等桌面浏览器(IE8部分功能失效)</span></p>    </div>
         </section>
     </header>
+
     <section class="container">
         <article class="content">
             <h2>技术特长(PHP)</h2>
@@ -106,8 +106,8 @@
             <ul class="thumbnails">
                 <li class="span4">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="<{assets url='static/img/cms_v1.png'}>"
-                             alt="CMS管理系统-都市网达"/>
+                        <img class="img-rounded" src="http://static.biyeyuan.com/img/cms_v1.png" width="360"
+                             height="180" alt="CMS管理系统-都市网达"/>
 
                         <h3 class="text-left">CMS管理系统</h3>
 
@@ -122,7 +122,7 @@
                 <li class="span4">
                     <section class="thumbnail bootstro" data-bootstro-title="" data-bootstro-placement="left"
                              data-bootstro-step="7">
-                        <img class="img-rounded" src="<{assets url='static/img/cms_v2.png'}>" alt="ZF框架CMS">
+                        <img class="img-rounded" src="http://static.biyeyuan.com/img/cms_v2.png" alt="ZF框架CMS">
 
                         <h3 class="text-left">ZF框架CMS</h3>
 
@@ -134,7 +134,7 @@
                 </li>
                 <li class="span4">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="<{assets url='static/img/shop_v1.png'}>" alt="电子商务网站(Smarty)">
+                        <img class="img-rounded" src="http://static.biyeyuan.com/img/shop_v1.png" alt="电子商务网站(Smarty)">
 
                         <h3 class="text-left">电子商务网站(Smarty)</h3>
 
@@ -148,7 +148,7 @@
                 <li class="span4">
                     <section class="thumbnail bootstro" data-bootstro-title="" data-bootstro-placement="right"
                              data-bootstro-step="8">
-                        <img class="img-rounded" src="<{assets url='static/img/map_v1.png'}>" alt="三维地图开发">
+                        <img class="img-rounded" src="http://static.biyeyuan.com/img/map_v1.png" alt="三维地图开发">
 
                         <h3 class="text-left">三维地图开发</h3>
 
@@ -161,7 +161,7 @@
                 </li>
                 <li class="span4">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="<{assets url='static/img/two_v1.png'}>" alt="二次开发">
+                        <img class="img-rounded" src="http://static.biyeyuan.com/img/two_v1.png" alt="二次开发">
 
                         <h3 class="text-left">二次开发</h3>
 
@@ -174,7 +174,7 @@
                 </li>
                 <li class="span4">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="<{assets url='static/img/j2ee_v1.png'}>" alt="条码管理系统开发">
+                        <img class="img-rounded" src="http://static.biyeyuan.com/img/j2ee_v1.png" alt="条码管理系统开发">
 
                         <h3 class="text-left">条码管理系统开发</h3>
 
@@ -242,6 +242,7 @@
             </table>
         </article>
     </section>
+
     <footer class="footer">
         <section class="container">
             <p>邮箱：<a title="都市网达邮箱" style="padding:0 5px 0 0" href="mailto:610852772@qq.com" target="_blank">610852772@qq.com</a>
@@ -250,15 +251,17 @@
             <p>&copy; 2013 都市网达. Powered by <a href="http://lmzj26.blog.51cto.com/" target="_blank">http://lmzj26.blog.51cto.com/</a>
                 <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备15011925号-1</a></p>
 
-            <p><a href="http://webscan.360.cn/index/checkwebsite/url/www.biyeyuan.com" target="_blank">
-                    <img border="0" src="<{assets url='/img/360.png'}>"/></a>
+            <p><a href="http://webscan.360.cn/index/checkwebsite/url/www.biyeyuan.com" target="_blank"><img border="0"
+                                                                                                            src="http://static.biyeyuan.com/img/360.png"/></a>
             </p>
         </section>
     </footer>
+
     <div id="Modal_Info" class="modal hide fade" tabindex="1" role="dialog" aria-hidden="true">
         <span class="info_s"></span>
     </div>
+
 <{/block}>
 <{block name="js"}>
-    <script src="<{assets url='static/js/basic.js'}>"></script>
+    <script src="http://static.biyeyuan.com/js/basic.js"></script>
 <{/block}>
