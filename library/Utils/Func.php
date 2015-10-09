@@ -91,14 +91,14 @@ class Func
      *
      * @return string
      */
-    public static function SeftUrl()
+    public static function SelfUrl()
     {
         return 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     }
 
 
     /**
-     *
+     * 将id转换为字符
      *
      * @param $id
      * @return string

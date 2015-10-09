@@ -18,7 +18,6 @@ class IndexController extends Controller
 
     public function indexAction()
     {
-        $this->getView()->assign("content", "Hello World");
         $this->display('index');
     }
 

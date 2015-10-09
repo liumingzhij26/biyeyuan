@@ -1,18 +1,18 @@
 <?php
 /**
- * Smarty Internal Plugin Config
+ * Smarty Internal Plugin config
  *
  * @package    Smarty
- * @subpackage Config
+ * @subpackage config
  * @author     Uwe Tews
  */
 
 /**
- * Smarty Internal Plugin Config
+ * Smarty Internal Plugin config
  * Main class for config variables
  *
  * @package    Smarty
- * @subpackage Config
+ * @subpackage config
  * @ignore
  */
 class Smarty_Internal_Config
@@ -30,7 +30,7 @@ class Smarty_Internal_Config
      */
     public $data = null;
     /**
-     * Config resource
+     * config resource
      *
      * @var string
      */
@@ -60,7 +60,7 @@ class Smarty_Internal_Config
      */
     public $mustCompile = null;
     /**
-     * Config file compiler object
+     * config file compiler object
      *
      * @var Smarty_Internal_Config_File_Compiler object
      */

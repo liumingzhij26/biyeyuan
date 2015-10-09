@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mingzhil
- * Date: 14/11/13
- * Time: 下午2:58
- */
 use Yaf\Dispatcher;
 use Yaf\Controller_Abstract;
 

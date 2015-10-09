@@ -9,14 +9,14 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
 {
 
     /**
-     * 初始化 Vendor
+     * 初始化 vendor
      * @param \Yaf\Dispatcher $dispatcher
      */
     public function _initVendor(Yaf\Dispatcher $dispatcher)
     {
         define('APP_NAME', 'lmz-demo');
-        require(APP_PATH . '/Vendor/Bootstrap/Autoloader.php');
-        \Bootstrap\Autoloader::instance()->addRoot(APP_PATH . '/')->init();
+        require(APP_PATH . '/vendor/bootstrap/Autoloader.php');
+        \bootstrap\Autoloader::instance()->addRoot(APP_PATH . '/')->init();
     }
 
     /**
@@ -25,7 +25,7 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
      */
     public function _initConfig(Yaf\Dispatcher $dispatcher)
     {
-        $app = (array)new \Config\App();
+        $app = (array)new \config\App();
         $config = Yaf\Application::app()->getConfig();
         $config = new Yaf\Config\Simple($config->toArray(), false);
         foreach ($app as $key => $val) {

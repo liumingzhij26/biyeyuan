@@ -8,7 +8,7 @@
 
 /**
  * Smarty Resource Data Object
- * Meta Data Container for Config Files
+ * Meta Data Container for config Files
  *
  * @package    Smarty
  * @subpackage TemplateResources
@@ -20,7 +20,7 @@
 class Smarty_Config_Source extends Smarty_Template_Source
 {
     /**
-     * create Config Object container
+     * create config Object container
      *
      * @param Smarty_Resource $handler         Resource Handler this source object communicates with
      * @param Smarty          $smarty          Smarty instance this source object belongs to

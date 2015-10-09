@@ -5,7 +5,7 @@
  * @author Su Chao<suchaoabc@163.com>
  */
 
-namespace Bootstrap;
+namespace bootstrap;
 
 /**
  * 框架体系中的类库自动加载类.
@@ -70,22 +70,9 @@ class Autoloader{
             $classFile = $root.$classPath.'.php';
             if(is_file($classFile))
             {
-                require_once($classFile);
+                require $classFile;
                 if(class_exists($name, false)) {
                     return true;
-                }
-            }
-            else
-            {// 对thrift provider文件的支持
-                $interfaceStr = substr($name, strlen($name)-2);
-                if(strpos($name, 'Provider\\') === 0 && $interfaceStr === 'If')
-                {
-                    substr_replace($classFile, '', strlen($classFile), 6, 2);
-                    if(is_file($classFile))
-                    {
-                        require_once($classFile);
-                        return true;
-                    }
                 }
             }
         }

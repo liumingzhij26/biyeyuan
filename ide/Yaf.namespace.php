@@ -2431,7 +2431,7 @@ namespace Yaf\Config
      *
      * Ini存储在Ini文件的配置数据提供了适配器
      *
-     * @package Yaf\Config
+     * @package Yaf\config
      */
     final class Ini extends Config_Abstract
     {
@@ -2614,7 +2614,7 @@ namespace Yaf\Config
      *
      * Simple为存储在PHP的数组中的配置数据提供了适配器
      *
-     * @package Yaf\Config
+     * @package Yaf\config
      */
     final class Simple extends Config_Abstract
     {
