@@ -5,3 +5,4 @@ composer.lock
 nbproject*
 ^node_modules$
 oss/conf.inc.php
+vendor/*
