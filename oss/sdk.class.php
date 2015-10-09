@@ -1,6 +1,6 @@
 <?php
 /**
- * OSS(Open Storage Services) PHP SDK 
+ * OSS(Open Storage services) PHP SDK
  */
 //设置默认时区
 date_default_timezone_set('Asia/Shanghai');
