@@ -195,5 +195,6 @@
 
 <{/block}>
 <{block name="js"}>
+    <script src="http://static.biyeyuan.com/js/jquery.scrollUp.min.js"></script>
     <script src="http://static.biyeyuan.com/js/basic.js"></script>
 <{/block}>

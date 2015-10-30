@@ -14,7 +14,7 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
      */
     public function _initVendor(Yaf\Dispatcher $dispatcher)
     {
-        define('APP_NAME', 'lmz-demo');
+        define('APP_NAME', 'biyeyuan');
         require(APP_PATH . '/vendor/bootstrap/Autoloader.php');
         \bootstrap\Autoloader::instance()->addRoot(APP_PATH . '/')->init();
     }
@@ -43,6 +43,7 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
     public function _initPlugin(Yaf\Dispatcher $dispatcher)
     {
         $dispatcher->registerPlugin(new TplPlugin());
+        $dispatcher->registerPlugin(new SystemPlugin());
     }
 
 }
