@@ -19,7 +19,7 @@
             <h1>网络爱好者-都市网达</h1>
 
             <p class="h2">
-                学习计算机9年了，我热爱计算机网络编程，对计算机网络和硬件有一定的基础；学习能力强，并且有较强的团队意识，能快速融入团队开发，如果有幸能加入贵公司，我愿意以200%的努力来工作与学习。(目前就职国内某电商)</p>
+                学习计算机9年了，我热爱计算机网络编程，对计算机网络和硬件有一定的基础；学习能力强，并且有较强的团队意识，能快速融入团队开发，如果有幸能加入贵公司，我愿意以200%的努力来工作与学习。(目前就职聚美优品)</p>
 
             <p class="h4">
                 <a href="http://lmzj26.blog.51cto.com/" style="padding:17px 0;" target="_blank" class="bootstro"
@@ -70,12 +70,12 @@
                 <tr>
                     <td>5、</td>
                     <td><p>
-                            精通MVC架构，能运用OOP，Yaf(TP|ZF|CI)框架、Memcached、Redis缓存，smarty的模板缓存和数据缓存、页面缓存，自动生成静态化页面，编写过轻量级MVC框架，composer等。 </p>
+                            精通MVC架构，能运用OOP，Yaf/Laravel/Workerman框架、Memcached、Redis缓存，编写过轻量级MVC框架，composer等。 </p>
                     </td>
                 </tr>
                 <tr>
                     <td>6、</td>
-                    <td><p>有二次开发经验，如Discuz、ECSHOP等开源程序。 </p></td>
+                    <td><p>有移动api，rpc开发经验。 </p></td>
                 </tr>
                 <tr>
                     <td>7、</td>
@@ -87,11 +87,11 @@
                 </tr>
                 <tr>
                     <td>9、</td>
-                    <td>熟悉JAVA、一般用JAVA处理与计算、统计数据，能使用spring、struts2、hibernate或ibatis独立开发项目。</td>
+                    <td>了解JAVA/GO、一般用JAVA处理与计算、统计数据，能使用spring、struts2、hibernate或ibatis独立开发项目。</td>
                 </tr>
                 <tr>
                     <td>10、</td>
-                    <td><p>会SVN、GIT、Mercurial版本控制开发程序。</p></td>
+                    <td><p>工作中使用GIT、HG(Mercurial)版本控制开发程序。</p></td>
                 </tr>
                 <tr>
                     <td>11、</td>
@@ -100,81 +100,12 @@
             </table>
         </article>
         <article class="content">
-            <h2>项目经验(附源码)</h2>
+            <h2>项目经验，面谈</h2>
 
-            <p class="small">其中的项目名称已经去掉，这些是本人开发或参与开发中的一部分，有招聘意向的，可以向我索要源码或发送邮件，以下项目为<b>2013年之前</b>！</p>
             <ul class="thumbnails">
-                <li class="span4">
+
+                <li class="span4 hide">
                     <section class="thumbnail">
-                        <img class="img-rounded" src="http://static.biyeyuan.com/img/cms_v1.png" width="360"
-                             height="180" alt="CMS管理系统-都市网达"/>
-
-                        <h3 class="text-left">CMS管理系统</h3>
-
-                        <p class="text-left">使用MVC模式，PHP5.2原生开发，没有使用第三方内库，封装工具类、函数库等，数据储存...</p>
-
-                        <p class="text-right"><a href="#" class="btn btn-success" target="_blank">源码下载</a> <a href="#"
-                                                                                                              class="btn btn-warning"
-                                                                                                              target="_blank">访问博客</a>
-                        </p>
-                    </section>
-                </li>
-                <li class="span4">
-                    <section class="thumbnail bootstro" data-bootstro-title="" data-bootstro-placement="left"
-                             data-bootstro-step="7">
-                        <img class="img-rounded" src="http://static.biyeyuan.com/img/cms_v2.png" alt="ZF框架CMS">
-
-                        <h3 class="text-left">ZF框架CMS</h3>
-
-                        <p class="text-left">使用ZF框架1.10，使用框架类库，工具类、函数库等，数据储存为Mysql5.0，Web...</p>
-
-                        <p class="text-right"><a href="#" target="_blank" class="btn btn-success">源码下载</a>
-                            <a href="http://lmzj26.blog.51cto.com/" target="_blank" class="btn btn-warning">访问博客</a></p>
-                    </section>
-                </li>
-                <li class="span4">
-                    <section class="thumbnail">
-                        <img class="img-rounded" src="http://static.biyeyuan.com/img/shop_v1.png" alt="电子商务网站(Smarty)">
-
-                        <h3 class="text-left">电子商务网站(Smarty)</h3>
-
-                        <p class="text-left">分别使用模型层、控制器、视图等，视图层采用Smarty模版引擎来操作...</p>
-
-                        <p class="text-right"><a href="#" target="_blank" class="btn btn-success">源码下载</a> <a
-                                    href="http://lmzj26.blog.51cto.com/" target="_blank"
-                                    class="btn btn-warning">访问博客</a></p>
-                    </section>
-                </li>
-                <li class="span4">
-                    <section class="thumbnail bootstro" data-bootstro-title="" data-bootstro-placement="right"
-                             data-bootstro-step="8">
-                        <img class="img-rounded" src="http://static.biyeyuan.com/img/map_v1.png" alt="三维地图开发">
-
-                        <h3 class="text-left">三维地图开发</h3>
-
-                        <p class="text-left">使用Javascript调用三维地图API，使用JQuery框架、XML前台语言PHP...</p>
-
-                        <p class="text-right"><a href="#" target="_blank" class="btn">企业机密</a> <a
-                                    href="http://lmzj26.blog.51cto.com/" target="_blank"
-                                    class="btn btn-warning">访问博客</a></p>
-                    </section>
-                </li>
-                <li class="span4">
-                    <section class="thumbnail">
-                        <img class="img-rounded" src="http://static.biyeyuan.com/img/two_v1.png" alt="二次开发">
-
-                        <h3 class="text-left">二次开发</h3>
-
-                        <p class="text-left">通过PHP开源系统如DEDE、PHPCMS、ECSHOP等程序，二次开发...</p>
-
-                        <p class="text-right"><a href="#" target="_blank" class="btn btn-success">源码下载</a> <a
-                                    href="http://lmzj26.blog.51cto.com/" target="_blank"
-                                    class="btn btn-warning">访问博客</a></p>
-                    </section>
-                </li>
-                <li class="span4">
-                    <section class="thumbnail">
-                        <img class="img-rounded" src="http://static.biyeyuan.com/img/j2ee_v1.png" alt="条码管理系统开发">
 
                         <h3 class="text-left">条码管理系统开发</h3>
 
@@ -185,6 +116,7 @@
                                     class="btn btn-warning">访问博客</a></p>
                     </section>
                 </li>
+
             </ul>
         </article>
         <article class="content">
@@ -193,13 +125,13 @@
             <p class="small"></p>
             <table class="table table-striped table-hover">
                 <tr>
-                    <td>2012年8月-2013年8月 **嘉博伟创，主要使用PHP与MYSQL、J2EE开发管理系统。</td>
+                    <td>2012年-2013年 北京嘉博伟创科技发展有限公司，主要使用PHP与MYSQL、J2EE开发管理系统。</td>
                 </tr>
                 <tr>
-                    <td>2013年8月-2014年9月 北京某互联网公司，主要使用PHP与MYSQL开发公司产品。</td>
+                    <td>2013年-2014年 耐特康赛网络技术（北京）有限公司，主要使用PHP与MYSQL开发公司产品。</td>
                 </tr>
                 <tr>
-                    <td>2014年9月- 至今 国内某知名电商，主要使用PHP开发公司移动端产品。</td>
+                    <td>2014年-至今 聚美优品技术部(北京)，之前负责h5，现聚美客户端api开发。</td>
                 </tr>
             </table>
         </article>
@@ -211,7 +143,7 @@
                 <tr>
                     <td>地点：北京</td>
                     <td>意向：全职、双休、25K++/M(年薪30W++)</td>
-                    <td>职位：PHP、java开发相关、服务器端开发相关、产品相关</td>
+                    <td>职位：PHP、java开发相关、服务器端开发相关</td>
                 </tr>
             </table>
         </article>
