@@ -29,4 +29,12 @@ class IndexController extends Controller
         phpinfo();
     }
 
+    public function codeAction()
+    {
+        $code = new \TheFairLib\Verify\Image();
+        $code->type = 'code';
+        $code->output(1);
+    }
+
+
 }

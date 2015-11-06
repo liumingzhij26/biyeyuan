@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    $vendorDir . '/lmz/medoo/medoo.php',
+    $vendorDir . '/illuminate/support/Illuminate/Support/helpers.php',
 );

@@ -6,4 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'TheFairLib\\' => array($vendorDir . '/thefair/thefairlib'),
+    'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
+    'Predis\\' => array($vendorDir . '/predis/predis/src'),
 );

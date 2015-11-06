@@ -15,8 +15,7 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
     public function _initVendor(Yaf\Dispatcher $dispatcher)
     {
         define('APP_NAME', 'biyeyuan');
-        require(APP_PATH . '/vendor/bootstrap/Autoloader.php');
-        \bootstrap\Autoloader::instance()->addRoot(APP_PATH . '/')->init();
+        require APP_PATH . '/vendor/autoload.php';
     }
 
     /**
@@ -25,7 +24,7 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
      */
     public function _initConfig(Yaf\Dispatcher $dispatcher)
     {
-        $app = (array)new \config\App();
+        $app = (array)\TheFairLib\Config\Config::load("App");
         $config = Yaf\Application::app()->getConfig();
         $config = new Yaf\Config\Simple($config->toArray(), false);
         foreach ($app as $key => $val) {
