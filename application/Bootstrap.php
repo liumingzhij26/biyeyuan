@@ -24,7 +24,7 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
      */
     public function _initConfig(Yaf\Dispatcher $dispatcher)
     {
-        $app = (array)\TheFairLib\Config\Config::load("App");
+        $app = \TheFairLib\Config\Config::get_app();
         $config = Yaf\Application::app()->getConfig();
         $config = new Yaf\Config\Simple($config->toArray(), false);
         foreach ($app as $key => $val) {

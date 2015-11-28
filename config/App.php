@@ -17,7 +17,4 @@ return [
     'platform' => 'h5',
 
     'client_v' => '1.0',
-
-
-
 ];
