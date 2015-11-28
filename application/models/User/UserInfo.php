@@ -3,5 +3,5 @@
 namespace User;
 
 class UserInfoModel {
-    
+
 }

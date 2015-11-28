@@ -29,10 +29,23 @@ class TplPlugin extends Plugin_Abstract
      */
     public function routerShutdown(Request_Abstract $request, Response_Abstract $response)
     {
-        $config = Registry::get("config")->smarty->toArray();
-        $config['template_dir'] = $config['template_dir'] . $request->module . '/';
-        $smarty = new Smarty\Adapter(null, $config);
-        Dispatcher::getInstance()->setView($smarty);
+        if ($this->_checkModuleTpl($request->module)) {//只有这些模板才注入
+            $config = Registry::get("config")->smarty->toArray();
+            $config['template_dir'] = $config['template_dir'] . $request->module . '/';
+            $smarty = new TheFairLib\Smarty\Adapter(null, $config);
+            Dispatcher::getInstance()->setView($smarty);
+        }
+    }
+
+    /**
+     * 只有需要模板的模块才注入smarty
+     *
+     * @param $module
+     * @return bool
+     */
+    private function _checkModuleTpl($module)
+    {
+        return in_array(strtolower($module), array('index')) ? true : false;
     }
 
 
