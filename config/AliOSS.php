@@ -14,8 +14,8 @@ class AliOSS
      * 只允许修改参数，其他不能改变
      */
     public $Auth = array(
-        'OSS_ACCESS_ID' => 'ouPEG3yPIkwCrJFZ',
-        'OSS_ACCESS_KEY' => 'c4zRsWNIQiyTueNnxxudxt4BMjR93t',
+        'OSS_ACCESS_ID' => '*******',
+        'OSS_ACCESS_KEY' => '******',
         'OSS_ENDPOINT' => 'oss-cn-beijing.aliyuncs.com',
         'OSS_TEST_BUCKET' => 'static-pub',
         'ALI_LOG' => false,
