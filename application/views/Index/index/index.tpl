@@ -2,7 +2,7 @@
 <{block name="title"}>
     <title>都市网达-个人简历之PHP篇</title>
     <meta name="keywords" content="都市网达,biyeyuan">
-    <meta name="description" content="学习计算机9年了，我热爱计算机网络编程，对计算机网络和硬件有一定的基础,如果有幸能加入贵公司，我愿意以200%的努力来工作与学习。(目前就职国内某知名电商)">
+    <meta name="description" content="学习计算机9年了，我热爱计算机网络编程，对计算机网络和硬件有一定的基础,如果有幸能加入贵公司，我愿意以200%的努力来工作与学习。">
 <{/block}>
 <{block name="css"}>
     <link href="http://static.biyeyuan.com/css/style.css" rel="stylesheet">
@@ -19,7 +19,7 @@
             <h1>网络爱好者-都市网达</h1>
 
             <p class="h2">
-                学习计算机9年了，我热爱计算机网络编程，对计算机网络和硬件有一定的基础；学习能力强，并且有较强的团队意识，能快速融入团队开发，如果有幸能加入贵公司，我愿意以200%的努力来工作与学习。(目前就职聚美优品)</p>
+                学习计算机9年了，我热爱计算机网络编程，对计算机网络和硬件有一定的基础；学习能力强，并且有较强的团队意识，能快速融入团队开发，如果有幸能加入贵公司，我愿意以200%的努力来工作与学习。</p>
 
             <p class="h4">
                 <a href="http://lmzj26.blog.51cto.com/" style="padding:17px 0;" target="_blank" class="bootstro"
@@ -131,7 +131,7 @@
                     <td>2013年-2014年 耐特康赛网络技术（北京）有限公司，主要使用PHP与MYSQL开发公司产品。</td>
                 </tr>
                 <tr>
-                    <td>2014年-至今 聚美优品技术部(北京)，之前负责h5，现聚美客户端api开发。</td>
+                    <td>2014年-2015年11月 聚美优品技术部(北京)，之前负责h5，聚美客户端api开发。</td>
                 </tr>
             </table>
         </article>
