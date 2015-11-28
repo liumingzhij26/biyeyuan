@@ -21,7 +21,7 @@ class TestController extends Controller
         $Base = \AliOSS\Base::Instance();
         $Base->getALIOSSSDK()->setEnableDomainStyle(true);
         $data['list'] = $Base->getALIOSSSDK()->listBucket();
-
+        print_R($data);
 
         /**
          *列出Bucket内所有文件
@@ -52,12 +52,8 @@ class TestController extends Controller
                     $index++;
                 }
             }
-            if (empty($next_marker))
-            {
-                break;
-            }
         }
-        Response::Json($data);
+        print_R($data);
     }
 
 }
