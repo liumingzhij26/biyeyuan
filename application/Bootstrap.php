@@ -31,8 +31,8 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
             $config->set($key, $val);
         }
         Yaf\Registry::set("config", $config);
-        $router = $dispatcher::getInstance()->getRouter();
-        $router->addConfig(Yaf\Registry::get("config")->routes);
+//        $router = $dispatcher::getInstance()->getRouter();
+//        $router->addConfig(Yaf\Registry::get("config")->routes);
     }
 
     /**

@@ -12,7 +12,7 @@
  */
 
 return [
-    'phase' => 'dev',   //string 开发环境pro
+    'phase' => 'prod',   //string 开发环境pro
 
     'platform' => 'h5',
 

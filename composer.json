@@ -1,9 +1,8 @@
 {
   "config": {"vendor-dir": "vendor"},
   "require": {
-    "thefair/thefairlib": "dev-master",
-    "curl/curl": "<2.0",
-    "facebook/php-sdk-v4": "~5.0",
-    "lmz/medoo": "*"
+    "thefair/thefairlib": "*",
+    "thenbsp/wechat": "*",
+    "curl/curl": "<2.0"
   }
 }

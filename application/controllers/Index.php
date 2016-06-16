@@ -29,11 +29,12 @@ class IndexController extends Controller
         phpinfo();
     }
 
-    public function codeAction()
+    public function tokenAction()
     {
-        $code = new \TheFairLib\Verify\Image();
-        $code->type = 'code';
-        $code->output(1);
+        $config = \TheFairLib\Config\Config::get_union_wechat();
+        $token = new \Thenbsp\Wechat\Wechat\AccessToken($config['app_id'],$config['app_secret']);
+        print_r($token);
+
     }
 
 
