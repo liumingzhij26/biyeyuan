@@ -1,8 +1,0 @@
-{
-  "config": {"vendor-dir": "vendor"},
-  "require": {
-    "thefair/thefairlib": "*",
-    "thenbsp/wechat": "*",
-    "curl/curl": "<2.0"
-  }
-}
